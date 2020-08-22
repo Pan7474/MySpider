@@ -7,4 +7,5 @@ class BaiduTestSpider(scrapy.Spider):
     start_urls = ['http://www.baidu.com/']
 
     def parse(self, response):
-        pass
+        print('这是个小测试，scrapy的初体验')
+        print('+++++++++++++++++++++++++')
